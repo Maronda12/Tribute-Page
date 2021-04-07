@@ -1,0 +1,135 @@
+html {
+    font-size: 10px;
+  }
+  
+  body {
+    font-family: 'Bradley Hand', cursive, sans-serif;
+    font-size: 1.5rem;
+    color: #9d9a00;
+    line-height: 1.2;
+    text-align: center;
+  }
+  
+  #main {
+    margin: 20px 5px 20px 5px;
+    background: #7c250f;
+    padding: 0px auto 20px auto;
+    border-radius: 20px;
+  }
+  
+  @media (max-width: 460px) {
+    #main {
+      margin: 0;
+    }
+  }
+  
+  #header {
+    padding: 30px;
+    text-align: center;
+    text-shadow: 2px 2px black;
+    /*background: #00bfc8;*/
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: block;
+    max-width: 100%;
+    height: 170px;
+    color: white;
+    border-radius: 20px;
+    margin: auto;
+  }
+  
+  @media (max-width: 460px) {
+    #header {
+      max-width: 460px;
+    }
+  }
+  
+  h1 {
+    font-size: 6rem;
+    margin-bottom: 0;
+  }
+  
+  @media (max-width: 460px) {
+    h1 {
+      font-size: 4.5rem;
+      line-height: 1.2;
+    }
+  }
+  
+  #description {
+    text-shadow: 1px 1px black;
+    font-size: 1.7rem;
+  }
+  
+  @media(max-width: 460px) {
+    #description {
+      font-size: 1.3rem;
+    }
+  }
+  
+  #img-div {
+    padding: 30px;
+    background: white;
+    border-radius: 20px;
+    color: black;
+    margin: 20px;
+  }
+  
+  @media (max-width: 460px) {
+    #img-div {
+      margin: 0;
+    }
+  }
+  
+  img {
+    max-width: 50%;
+    display: block;
+    margin: auto;
+  }
+  
+  #image {
+    border-radius: 15px;
+  }
+  
+  #img-caption {
+    font-family: Apple Chancery, cursive;
+    font-size: 1.7rem;
+    margin: 15px 0 0 0;
+  }
+  
+  @media (max-width: 460px) {
+    #img-caption {
+      font-size: 1.4rem;
+    }
+  }
+  
+  #tribute-info {
+    font-family: Didot, serif;
+    color: 	#262626;
+  }
+  
+  h2 {
+    font-family: Georgia, serif;
+    margin: 50px 0;
+  }
+  
+  
+  ol {
+    text-align: justify;
+    line-height: 1.2;
+    max-width: 520px;
+    margin: 0 auto 50px auto;
+  }
+  
+  li {
+    margin: 3.5rem;
+  }
+  h3 {
+    padding: 0 0 30px 0;
+    margin: 10px;
+  }
+  #tribute-link {
+    font-family: Georgia, serif;
+    color: #e68a00;
+  }
